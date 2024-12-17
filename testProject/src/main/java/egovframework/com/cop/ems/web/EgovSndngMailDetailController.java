@@ -6,11 +6,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import egovframework.com.cmm.EgovWebUtil;
-import egovframework.com.cmm.service.Globals;
-import egovframework.com.cop.ems.service.EgovSndngMailDetailService;
-import egovframework.com.cop.ems.service.SndngMailVO;
-
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletResponse;
 
@@ -21,6 +16,11 @@ import org.springframework.ui.ModelMap;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import egovframework.com.cmm.EgovWebUtil;
+import egovframework.com.cmm.service.Globals;
+import egovframework.com.cop.ems.service.EgovSndngMailDetailService;
+import egovframework.com.cop.ems.service.SndngMailVO;
 
 /**
  * 발송메일을 상세 조회하는 컨트롤러 클래스
